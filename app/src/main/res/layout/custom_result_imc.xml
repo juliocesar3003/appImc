@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:layout_marginBottom="30dp">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Resultado"
+        android:textSize="18pt"
+        tools:layout_editor_absoluteX=""
+        tools:layout_editor_absoluteY="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="40"
+        android:textSize="24pt"
+        tools:layout_editor_absoluteX=""
+        tools:layout_editor_absoluteY="80dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/voltar"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

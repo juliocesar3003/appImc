@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_peso" type="id" />
+    <item name="id_altura" type="id" />
+    <item name="id_peso_edit" type="id" />
+    <item name="main" type="id" />
+    <item name="id_altura_edit" type="id" />
+    <item name="divider" type="id" />
+    <item name="btn_calcular" type="id" />
+    <item name="textInputLayout1" type="id" />
+    <item name="inputAltura" type="id" />
+    <item name="textInputLayout2" type="id" />
+    <item name="inputPeso" type="id" />
+    <item name="btnCalcular" type="id" />
+</resources>
